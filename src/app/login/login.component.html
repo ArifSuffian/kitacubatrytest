@@ -21,9 +21,9 @@
             <input type="text" name="pword" class="form-control" [(ngModel)]="password" />
         </div>
         <div class="btncontainer">
-            <!-- <div class="error"> {{ errorMsg }} </div> -->
-            <button class="btn btn-dark">Login</button> 
-            <!-- (click)="login() -->
+            <div class="error"> {{ errorMsg }} </div>
+            <button class="btn btn-dark" (click)="login()">Login</button> 
+            
         </div>
     </div>
 </div>

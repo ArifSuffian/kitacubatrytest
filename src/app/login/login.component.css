@@ -53,10 +53,10 @@ label{
     margin-top: 20px;
 }
 
-/* .error{
+.error{
     position: absolute;
-    top: 32px;
-    right: 0px;
+    top: 200px;
+    right: 30px;
     color: red;
     
-} */
+}
