@@ -2,29 +2,28 @@
     <div class="logo">Rotten Potatoes</div>
     <img class="film" src="assets/images/film.png" alt="film">
     <div class="desc">
-        Rotten potatoes is the world's most trusted recommendation 
-        resources for quality entertaiment.As the leading online 
-        aggregator of movie and TV show reviees from critics, 
-        we provide fans with a comprehensive guide to what 
-        Fresh - and wwat's Rotten - in theaters and at home. 
-        If you're an entertainment fan looking for a recommendation, 
+        Rotten potatoes is the world's most trusted recommendation
+        resources for quality entertaiment.As the leading online
+        aggregator of movie and TV show reviees from critics,
+        we provide fans with a comprehensive guide to what
+        Fresh - and wwat's Rotten - in theaters and at home.
+        If you're an entertainment fan looking for a recommendation,
         or to share an opinion. you've come to the right place
     </div>
 
     <div class="login-form">
         <div class="form-group">
-            <label for="uname">Username   </label>
-            <input type="text" name="uname" class="form-control"/> 
+            <label for="uname">Username </label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username" />
         </div>
         <div class="form-group">
-            <label for="pword">Password  </label>
-            <input type="text" name="pword" class="form-control"/> 
-        </div> 
+            <label for="pword">Password </label>
+            <input type="text" name="pword" class="form-control" [(ngModel)]="password" />
+        </div>
         <div class="btncontainer">
-            <button class="btn btn-dark">
-                Login
-
-            </button>
+            <!-- <div class="error"> {{ errorMsg }} </div> -->
+            <button class="btn btn-dark">Login</button> 
+            <!-- (click)="login() -->
         </div>
     </div>
 </div>
